@@ -1,0 +1,36 @@
+{
+  "status": 0,
+  "message": "成功",
+  "data": {
+    "item": [
+      { 
+        "styleId": "3",
+        "id": "bs1h",
+        "title": "1别墅一号",
+        "brief": "佘山红酒庄园别墅，佘山地铁站步行即到。紧邻佘山风景名胜区、欢乐谷、玛雅水上乐园和月湖雕塑公园，使用面积约400平米，带绝美私密后花园。",
+        "cover": "img/place-list/place-list-1.jpg"
+      },
+      {
+        "styleId": "3",
+        "id": "bs2h",
+        "title": "2别墅二号",
+        "brief": "佘山红酒庄园别墅，佘山地铁站步行即到。紧邻佘山风景名胜区、欢乐谷、玛雅水上乐园和月湖雕塑公园，使用面积约400平米，带绝美私密后花园。",
+        "cover": "img/place-list/place-list-1.jpg"
+      },
+      {
+        "styleId": "3",
+        "id": "bs3h",
+        "title": "3别墅三号",
+        "brief": "佘山红酒庄园别墅，佘山地铁站步行即到。紧邻佘山风景名胜区、欢乐谷、玛雅水上乐园和月湖雕塑公园，使用面积约400平米，带绝美私密后花园。",
+        "cover": "img/place-list/place-list-1.jpg"
+      },
+      {
+        "styleId": "4",
+        "id": "bs4h",
+        "title": "4别墅四号",
+        "brief": "松江轰趴首席北欧湖滨别墅为独栋别墅，室内使用面积为380平方，带200平花园，风景优美，地理位置佳。可容纳包场人数35人。",
+        "cover": "img/place-list/place-list-1.jpg"
+      }
+    ]
+  }
+}

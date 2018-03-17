@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*CSS document*/
+
+body {
+  min-width: 1000px;
+}
+
+.sidebar {
+  min-width: 180px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+legend {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.glpx-dropselect {
+  margin-bottom: 20px;
+}
+
+
+/*.file {
+  visibility: hidden;
+}*/
+
+#glpx,
+#fbpx,
+#xgpx,
+#zpq,
+#fbzp,
+#xgzp {
+  padding-bottom: 90px;
+}
+
+.fbpx-confirm,
+.xgpx-confirm {
+  margin-top: 40px;
+}
+
+
+/*多选框样式*/
+
+input[type="checkbox"].checkboxStyle {
+  margin-top: 6px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+/*.imgPreview td {
+  position: relative !important;
+}
+
+.imgPreview td img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  max-width: 250px;
+}
+
+.imgPreview td button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.imgPreview td:hover button {
+  display: block;
+}*/
+
+#xgzpTab a,
+#xgpxTab a {
+  cursor: default;
+}
+
+.imgPreview li {
+  position: relative !important;
+  display: inline-block;
+  height: 200px;
+}
+
+.imgPreview li img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  max-width: 250px;
+}
+
+.imgPreview li button {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.imgPreview li:hover button {
+  display: block;
+}
+
+#fbpxBtn,
+#xgzpBtn,
+#fbzpBtn,
+#xgzpBtn {
+  position: relative !important;
+  height: 46px;
+}
+
+.sendLoading {
+  position: absolute;
+  top: 28%;
+  left: 49%;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: sendLoading 1s infinite ease-in-out;
+}
+
+@keyframes sendLoading {
+  0% {
+    /*transform-origin: center;*/
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transform: rotate(0deg);
+  }
+  80% {
+    /*transform-origin: center;*/
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transform: rotate(350deg);
+  }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    /*transform-origin: center;*/
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <title>【蓝派】--后台管理</title>
+  <link rel="shortcut icon" href="favicon-1.ico" />
+  <link href="../admin/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../admin/css/dashboard.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #eee;
+    }
+    
+    .form-signin {
+      max-width: 330px;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+      margin-bottom: 10px;
+    }
+    
+    .form-signin .checkbox {
+      font-weight: normal;
+    }
+    
+    .form-signin .form-control {
+      position: relative;
+      height: auto;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px;
+      font-size: 16px;
+    }
+    
+    .form-signin .form-control:focus {
+      z-index: 2;
+    }
+  </style>
+  <!--[if lte IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <form role="form" class="form-signin">
+    <legend><strong>蓝派</strong>-<small>后台登录</small></legend>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+          <input type="text" class="form-control" id="userAccount" placeholder="Account">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-addon"><span class="glyphicon glyphicon-paperclip"></span></div>
+          <input type="password" class="form-control" id="userPassword" placeholder="Password">
+        </div>
+      </div>
+      <button type="button" class="btn btn-block btn-primary btn-lg" id="login">Login</button>
+    </form>
+  </div>
+
+
+  <script src="../admin/js/adminlg.js"></script>
+</body>
+
+</html>
