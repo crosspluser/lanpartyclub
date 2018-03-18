@@ -8,7 +8,7 @@ class Album
     public function __construct()
     {
         //数据库初始化
-        $this->conn = new mysqli('139.224.72.243:13306', 'root', 'Ecs1014lPx@riXi_aly', 'lanpartyclub_database');
+        $this->conn = new mysqli('127.0.0.1:3306', 'root', 'ejX5*aJlQ', 'lanpartyclub_database');
         if (!mysqli_connect_errno()) {
             mysqli_options($this->conn, MYSQLI_OPT_INT_AND_FLOAT_NATIVE, true);
         } else {

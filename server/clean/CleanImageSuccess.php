@@ -2,7 +2,7 @@
 delete_images();
 function delete_images()
 {
-    $conn = new mysqli('139.224.72.243:13306', 'root', 'Ecs1014lPx@riXi_aly', 'lanpartyclub_database');
+    $conn = new mysqli('127.0.0.1:3306', 'root', 'ejX5*aJlQ', 'lanpartyclub_database');
     mysqli_options($conn, MYSQLI_OPT_INT_AND_FLOAT_NATIVE, true);
     if (!$conn) {
         echo 'ERROR: 数据库连接错误';
